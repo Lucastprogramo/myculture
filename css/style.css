@@ -71,7 +71,7 @@ nav {
   padding-top: 1%;
 }
 .hover-todo:hover {
-  transition: font-size .3s line;
+  transition: font-size .3s linear;
 }
 .hover-todo:hover {
   background-color: rgba(0, 0, 0, 0.2);
