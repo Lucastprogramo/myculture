@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unete</title>
+  <!-- vinculada con la misma pagina css style que index>-->
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+</head>
+
+<body class="fondo-unete">
+
+
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="../index.html"><img src="../assets/img/logo.png" alt="logo" width="100"/></a>
+      </div>
+
+      <ul class="lista-nav">
+        <li class="tipo-letra "><a href="../pages/about_us.html" class="hover-todo">ABOUT US</a></li>
+        <li class="tipo-letra "><a href="../pages/artes.html" class="hover-todo">ARTES</a></li>
+        <li class="tipo-letra "><a href="../pages/diseno.html" class="hover-todo">DISEÑO</a></li>
+        <li class="tipo-letra "><a href="../pages/unete.html" class="hover-todo">UNETE</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  <main class="contenedor-form">
+
+    <form action="/formulario" method="post">
+      <fieldset>
+
+        <legend class="tipo-letra">REGISTRATE</legend>
+
+        <label for="usuario">USUARIO</label>
+        <input type="text" name="usuario" id="Usuario">
+
+        <label for="nombre">NOMBRE</label>
+        <input type="text" name="name" id="nombre"> 
+
+        <label for="apellido">APELLIDO</label>
+        <input type="text" name="surname" id="Apellido">
+
+        <label for="mail">MAIL</label>
+        <Samp><input type="email" name="mail" placeholder="ejemplo@gmail.com" id="mail"></Samp>
+
+        <label for="password">CONTRASEÑA</label> 
+        <input type="password" name="password" id="password">
+        <input type="submit" value="ENVIAR" class="boton-enviar">
+
+      </fieldset>
+    </form>
+  </main>
+  
+
+  <!--pie de pagina-->
+
+  <footer>
+    <span class="texto-blanco"> myculture@gmail.com </span>
+    <span class="texto-blanco">©2022 myCULTURE </span>
+  </footer>
+</body>
+
+</html>
