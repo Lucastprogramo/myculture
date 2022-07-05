@@ -1,99 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home</title>
- 
-  <link
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-  rel="stylesheet"
-  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-  crossorigin="anonymous"/>
-  <link rel="stylesheet" href="./css/style.css"/> 
-  
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
 
-  <!-- este link asi como esta es para vincular html con un css-->
-  <link rel="icon" href="./favicon/favicon.ico" type="image/x-icon" />
-  <!-- esta etiqueta con respectivas propieddes se utilizan para que en la barra de navegacion (la de arriba del todo)aparezca el logo-->
-  <!-- etrar a faviocon-seleccionar imagen de icono-convertirla-descargar el archivo comprimido- descomprimir y agregar a una carpeta nueva llamada favicon- agregar etiqueta link en el head- en rel="" ponerle icon -darle la ruta del icono- y seleccionar la image con extencion "".ico" -y agregar un type="image/x-icon"-->
-</head>
+    <link rel="stylesheet" href="./css/style.css" />
 
-<body>
-  <div class="contenedor-grid">
-    <!--botonera-->
-    <nav id="botonera">
-      <div class="logo">
-        <img src="assets/img/logo.png" alt="logo" width="100" />
+    <!-- este link asi como esta es para vincular html con un css-->
+    <link rel="icon" href="./favicon/favicon.ico" type="image/x-icon" />
+    <!-- esta etiqueta con respectivas propieddes se utilizan para que en la barra de navegacion (la de arriba del todo)aparezca el logo-->
+    <!-- etrar a faviocon-seleccionar imagen de icono-convertirla-descargar el archivo comprimido- descomprimir y agregar a una carpeta nueva llamada favicon- agregar etiqueta link en el head- en rel="" ponerle icon -darle la ruta del icono- y seleccionar la image con extencion "".ico" -y agregar un type="image/x-icon"-->
+  </head>
+
+  <body>
+    
+    <nav class="navbar navbar-expand-sm lg-12 bg-blanco texto-blanco tipo-letra">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img src="./assets/img/logo.png" alt="LOGO" width="100px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./pages/about_us.html"
+                >ABOUT US</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/artes.html">ARTES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/diseno.html">DISEÑO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/unete.html">UNETE</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <ul class="lista-nav">
-        <li><a href="./pages/about_us.html" class="hover-todo tipo-letra">ABOUT US</a></li>
-        <li><a href="./pages/artes.html" class="hover-todo tipo-letra">ARTE</a></li>
-        <li><a href="./pages/diseno.html" class="hover-todo tipo-letra">DISEÑO</a></li>
-        <li><a href="./pages/unete.html" class="hover-todo tipo-letra">UNETE</a></li>
-      </ul>
     </nav>
 
-
-    <main id="video-titulogrid" >
-        <video autoplay loop muted width="100%" class="Video">
-          <source src="./assets/video/fondo-index.mp4" type="video/mp4" />
-        </video>
-    </main>
-
- <aside id="book-revistas">
-   <div class="cajas-index"><img src="./assets/img/aside-index/aside-1.jpg" alt="tapa de revista" width="100" ></div>
-   <div class="cajas-index"><img src="./assets/img/aside-index/aside-2.jpg" alt="tapa de revista" width="100"></div>
-   <div class="cajas-index"><img src="./assets/img/aside-index/aside-3.jpg" alt="tapa de revista" width="100"></div>
-   <div class="cajas-index"><img src="./assets/img/aside-index/aside-4.webp" alt="tapa de revista" width="100"></div>
-   <div class="cajas-index"><img src="./assets/img/aside-index/aside-5.jpg" alt="tapa de revista" width="100"></div>
-   <div class="cajas-index"><img src="./assets/img/aside-index/aside-6.jpg" alt="tapa de revista" width="100"></div>
-   <div class="cajas-index"><img src="./assets/img/aside-index/aside-7.jpg" alt="tapa de revista" width="100"></div>
-   <div class="cajas-index"><img src="./assets/img/aside-index/aside-8.jpg" alt="tapa de revista" width="100"></div>
-   <div class="cajas-index"><img src="./assets/img/aside-index/aside-9.jpg" alt="tapa de revista" width="100"></div>
-   <div class="cajas-index"><img src="./assets/img/aside-index/aside-10.jpg" alt="tapa de revista" width="100"></div>
-   <div class="cajas-index"><img src="./assets/img/aside-index/aside-11.jpg" alt="tapa de revista" width="100"></div>
-   <div class="cajas-index"><img src="./assets/img/aside-index/aside-12.jpg" alt="tapa de revista" width="100"></div>
- </aside>
-    <ul class="iconos-redes">
-      <li>
-        <a href="https://www.instagram.com/" class="hover-todo"><img class="imagenes-accesos"
-            src="./assets/img/logos_redes/logoinsta.png" alt="lodg de instagram" /></a>
-      </li>
-      <li>
-        <a href="https://es-la.facebook.com/" class="hover-todo"><img class="imagenes-accesos"
-            src="./assets/img/logos_redes/logofacebook.png" alt="logo de facebook" /></a>
-      </li>
-      <li>
-        <a href="https://twitter.com/?lang=es" class="hover-todo"><img class="imagenes-accesos"
-            src="./assets/img/logos_redes/logotwitter.png" alt="logo de twitter" /></a>
-      </li>
-      <li>
-        <a href="https://www.google.com/intl/es/gmail/about/" class="hover-todo"><img class="imagenes-accesos"
-            src="./assets/img/logos_redes/loogocorreo.png" alt="logo de correo" /></a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/home" class="hover-todo "><img class="imagenes-accesos"
-            src="./assets/img/logos_redes/logolinkedin.png" alt="logo de linkedin" /></a>
-      </li>
-    </ul>
  
+      <div class="row borderblack">
+        <aside
+          id="carouselExampleInterval"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          class="col.lg-3"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img
+                src="./assets/img/aside-index/aside-1.jpg"
+                class="d-block img-carusel "
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="./assets/img/aside-index/aside-2.jpg"
+                class="d-block  d-lg-inline w-30 mx-auto d-block-inline img-carusel"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/aside-index/aside-3.jpg"
+                class="d-block  d-lg-inline w-30 mx-auto d-block-inline img-carusel"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/aside-index/aside-4.jpg"
+                class="d-block  d-lg-inline w-30 mx-auto d-block-inline img-carusel"
+                alt="..." 
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/aside-index/aside-5.jpg"
+                class="d-block  d-lg-inline w-30 mx-auto d-block-inline img-carusel"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/aside-index/aside-6.jpg"
+                class="d-block  d-lg-inline w-30 mx-auto d-block-inline img-carusel " 
+                alt="..."
+              />
+            </div>
+           
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </aside>
+      </div>
+    
+
+ <div class="row text-center font-letra letra-narrow mx-2">
+  <div class="col">
+    _______________
+  <h1>REVELATE AL MUNDO</h1>
+<h3 class="letra-nanum">
+  <strong class="letra-narrow">my CULTURE</strong> <span></span> es una revista virtual que busca revelar distintas formas
+  de hacer arte, llevando a cabo una exposición mensual de artistas
+  emergentes. Esto permite que miles de personas en todo e mundo, puedan
+  conocer tu marca, tu identidad.
+  <br><br>
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur qui ducimus quia voluptates mollitia? Necessitatibus velit blanditiis odit ipsam cumque error assumenda vel officia inventore, corporis totam culpa? Qui, totam.
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis magni sit unde consectetur iusto nulla labore necessitatibus quibusdam totam sed doloremque, possimus fugiat inventore pariatur! Esse obcaecati eligendi alias sed.
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda non praesentium totam beatae quas natus! Recusandae voluptatem id molestias incidunt, necessitatibus facere labore nihil dignissimos? Earum exercitationem voluptate minima aperiam?
+</h3>
+    <br>
+
+  </div>
+ </div>
  
+    <div class="row">
+      <div class="col">
+        <footer id="pie">
+          <span class="texto-blanco"> myculture@gmail.com </span>
+          <div>
+<a href="https://www.facebook.com/"><img src="./assets/img/logos_redes/logofacebook.png" alt="facebook"  class="redes" width="30px" ></a>
+<a href="https://www.instagram.com/"><img src="./assets/img/logos_redes/logoinsta.png" alt="instagram"  class="redes" width="30px"></a>
+<a href="https://twitter.com/?lang=es"><img src="./assets/img/logos_redes/logotwitter.png" alt="twitter"  class="redes" width="30px"></a>
+<a href="https://uy.linkedin.com/"><img src="./assets/img/logos_redes/logolinkedin.png" alt="linkedin"  class="redes" width="30px"></a>
+<a href="https://uy.linkedin.com/"><img src="./assets/img/logos_redes/loogocorreo.png" alt="correo"  class="" width="30px"></a>
+</div>
+          <span class="texto-blanco">©2022 myCULTURE </span>
+        </footer>
+      </div>
+    </div>
 
-  <!--pie de pagina-->
-  <footer id="pie">
-    <span class="texto-blanco"> myculture@gmail.com </span>
-
-    <span class="texto-blanco">©2022 myCULTURE </span>
-  </footer>
-  <script
-  src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-  crossorigin="anonymous"
-></script>
-</body>
-</div> <!-- fin de contenedor para grid-->
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
