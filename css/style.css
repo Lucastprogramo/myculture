@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
-
-/* ESTILO PARA TODAS LAS PAGINAS*/
-
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Oswald:wght@200;300;400;500&family=PT+Sans+Narrow&display=swap');
 /*selector universal */
 * {
   padding: 0;
@@ -9,17 +7,37 @@
   box-sizing: border-box;
 }
 
-.todo-flex {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
+/* clases  propias para bootstrap*/
+.redes{
+  margin-right: 1em;
+}
+.img-carusel {
+  height: 30em;
+  width: 100%;  
+  object-fit: cover;
+  
 }
 
+.borderblack {
+  border: #000000 solid 1px;
+}
+
+.bg-blanco{
+  background-color: white;
+}
+.font-letra{
+  font-size: 2em;
+}
+/* ESTILO PARA TODAS LAS PAGINAS*/
+
+
+.position-absolute{
+  position: absolute;
+}
 body {
   margin: 0;
 
-  background-color: #7e7867;
+  background-color: white;
   padding: 0;
 }
 
@@ -78,10 +96,9 @@ nav {
   font-size: 1.5em;
 }
 
-.tipo-letra {
-  font-family: "Open sans";
+.letra-nanum{
+  font-family: 'Nanum Myeongjo', serif;
 }
-
 a {
   color: white;
 }
@@ -90,13 +107,17 @@ a {
   color: white;
 }
 
-.texto-beige {
-  color: #7e7867;
+.texto.black {
+  color: #000000;
+}
+.letra-narrow{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* ESTILOS PARA INDEX*/
 /* fondo de index*/
-/*  Grid y RESPO?NSIvE index*/
+/*  Grid y RESPO?NSIvE index
 .contenedor-grid {
   height: 100%;
 
@@ -154,9 +175,7 @@ a {
     padding-top: 4%;
   }
 
-  #video-titulogrid {
-    height: 20em;
-  }
+
   #book-revistas {
     display: flex;
     flex-direction: column;
@@ -168,7 +187,7 @@ a {
     padding-bottom: 2%;
     height: 20em;
   }
-} /*cierre de @media 768 */
+} /*cierre de @media 768 
 @media (min-width: 1200px) {
   .contenedor-grid {
     grid-template-columns: 1fr;
@@ -207,11 +226,13 @@ a {
     display: flex;
   }
 }
+*/
 
 video {
   object-fit: cover;
-  height: 100%;
+  height: 100vh;
 }
+*/
 
 /* accesos a redes en index*/
 .iconos-redes {
@@ -222,13 +243,13 @@ video {
   padding-left: 2em;
   position: fixed;
   top: 15em;
+  
 }
 
 /*imagenes de accesos a redes */
 .imagenes-accesos {
   width: 2em;
   height: 2em;
-
   margin-bottom: 0.5rem;
 }
 
@@ -240,10 +261,10 @@ video {
 /* titulo del medio*/
 
 aside {
-  background-color: rgba(8, 8, 8, 0.7);
+  background-color: white;
   display: flex;
-  overflow-x: scroll;
-  height: 100%;
+
+  ;
 }
 
 .cajas-index {
@@ -255,14 +276,12 @@ aside {
 
 /* ESTILO PARA ABOUT US*/
 
-/* fondos de about_us html*/
+/* fondo de about_us html*/
 
-.fondo-about-us {
-  background-image: url(../assets/img/Abouts_us/chicas-aboutus.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.img-objet-fit{
+ object-fit: cover;
   width: 100%;
+  height: 20em;
 }
 
 /* fondo de texto about-us
@@ -311,12 +330,18 @@ body {
 }
 
 .img-artes {
-  border: solid white 5px;
+  border: solid #000000 2px;
+  width: 70em;
+  height: 25em;
+  object-fit: cover;
+  
+  
+ 
 }
 
 /* ESTILO PARA DISEÑO*/
 /* fondo de diseno.html */
-.fondo-diseno {
+/* .fondo-diseno {
   background-image: url(../assets/img/diseño/chicas_diseño.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -357,7 +382,7 @@ body {
   margin-left: 4.5%;
   display: flex;
   justify-content: center;
-}
+} */
 
 #pie {
   grid-area: footer;
