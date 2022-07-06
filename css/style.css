@@ -18,6 +18,12 @@
   
 }
 
+
+ .nav-shadow {
+  box-shadow:  rgba(0, 0, 0, 0.1) 0px 4px 12px;
+ }
+
+
 .borderblack {
   border: #000000 solid 1px;
 }
@@ -73,14 +79,6 @@ header {
 }
 /*.lista-nav {}]*/
 
-nav {
-  background-color: rgba(0, 0, 0, 0.5);
-  position: fixed;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  z-index: 999;
-}
 
 .logo {
   display: flex;
@@ -276,7 +274,7 @@ aside {
 
 /* ESTILO PARA ABOUT US*/
 
-/* fondo de about_us html*/
+
 
 .img-objet-fit{
  object-fit: cover;
@@ -284,24 +282,7 @@ aside {
   height: 20em;
 }
 
-/* fondo de texto about-us
-.main-about {
-  display: flex;
-  height: 900px;
-  justify-content: center;
-  align-items: center;
-}
 
-.fondo-texto-about {
-  display: flex;
-  background-color: rgba(150, 137, 100, 0.5);
-  height: 40%;
-  width: 70%;
-  text-align: center;
-  align-items: center;
-  padding: 0 20px;
-}
-*/
 body {
   overflow-x: hidden;
 }
@@ -410,8 +391,8 @@ body {
   display: flex;
 
   align-content: center;
-  width: 100%;
-  margin: 3em 0;
+ 
+
 }
 
 label {
@@ -428,6 +409,20 @@ input {
   flex-direction: column;
   justify-content: space-between;
   width: 500px;
+  padding: 0.75em;
+  border-radius: 0.5em;
+   border: solid 1.5px #D3D3D3;
+  -webkit-transition: 1s; 
+  transition: 1s;
+}
+  
+input[type=text]:hover{
+  box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+}
+input[type=text]:focus {
+  box-shadow: 0 0 5pt 2pt #D3D3D3;
+  outline-width: 0px;
+
 }
 
 .boton-enviar {
