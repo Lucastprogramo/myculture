@@ -118,7 +118,6 @@ a {
 /*  Grid y RESPO?NSIvE index
 .contenedor-grid {
   height: 100%;
-
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
@@ -128,24 +127,20 @@ a {
     "aside"
     "footer";
 }
-
 #botonera {
   grid-area: nav;
   flex-direction: column;
   justify-content: center;
 }
-
 #video-titulogrid {
   grid-area: main;
   height: 50vh;
 }
-
 #book-revistas {
   grid-area: aside;
   overflow-y: hidden;
   height: 40vh;
 }
-
 #pie {
   grid-area: footer;
   height: 5em;
@@ -153,7 +148,6 @@ a {
   font-size: 0.7em;
   padding-bottom: 1%;
 }
-
 @media (min-width: 768px) {
   .contenedor-grid {
     height: 100vh;
@@ -172,8 +166,6 @@ a {
     padding-left: 4%;
     padding-top: 4%;
   }
-
-
   #book-revistas {
     display: flex;
     flex-direction: column;
@@ -208,7 +200,6 @@ a {
     grid-area: aside;
     display: flex;
     flex-direction: row;
-
     overflow-x: scroll;
     overflow-y: hidden;
     height: 40vh;
@@ -330,7 +321,6 @@ body {
   width: 100vw;
   height: 100vh;
 }
-
 .contenedor-diseno {
   display: grid;
   grid-template-columns: 1fr;
@@ -340,7 +330,6 @@ body {
     "main"
     "footer";
 }
-
 #botonera-diseno {
   grid-area: nav;
   flex-direction: column;
@@ -350,10 +339,8 @@ body {
   display: flex;
   justify-content: space-around;
 }
-
 #tienda {
   grid-area: main;
-
   background-color: rgba(8, 8, 8, 0.5);
   width: 90%;
   height: 80%;
