@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../favicon/favicon.ico" type="image/x-icon" />
 
     <!-- CSS only -->
     <link
@@ -20,7 +21,7 @@
   <body>
   
     
-  <nav class="navbar navbar-expand-sm lg-12 bg-blanco texto-blanco tipo-letra nav-shadow ">
+  <nav class="navbar navbar-expand-sm lg-12 bg-blanco texto-blanco letra-narrow nav-shadow positions-fixed">
     <div class="container-fluid">
       <a class="navbar-brand" href="../index.html"
         ><img src="../assets/img/logo.png" alt="LOGO" width="100px"
@@ -60,22 +61,30 @@
     </div>
   </nav>
 
-  <div class="row">
-    <div class="col ">
-     
-        <div class="img-unete">
-          <img src="../assets/img/unete/chicas_unete.jpg" alt=""  class=" d-inline-block w-100">
-        
-      
-        </div>
-      </div>
-    <main class="container-fluid w-auto">
-      <div class="row">
 
-        <div class="col-md-4">
-      <form action="/formulario" method="post" class="col-md-12 mx-3" >
+  <main>
+    <div  class="container-fluid">
+
+ <div class="row">
+
+    <div class=" col-md-7 img-100 ">
+     
+        
+          <img src="../assets/img/unete/chicas_unete.jpg" alt=" tres chicas "  class=" img-objet-fit" style="height: 56em;">
+        
+    </div>
+
+     
+    
+
+    
+      
+
+        <div class="col-md-5 " style="margin-top: 8em;">
+
+      <form action="/formulario" method="post" >
         <fieldset>
-          <legend class="tipo-letra">REGISTRATE</legend>
+          <legend class="letra-narrow pt-1 " style="font-size: 30px;">REGISTRATE</legend>
 
           <label for="usuario">USUARIO</label>
           <input type="text" name="usuario" id="Usuario" />
@@ -97,30 +106,32 @@
 
           <label for="password">CONTRASEÑA</label>
           <input type="password" name="password" id="password" />
-          <input type="submit" value="ENVIAR" class="boton-enviar" />
+          <input type="submit" value="ENVIAR" class="boton-enviar pt-3" />
         </fieldset>
       </form>
+    </div>
+
       </div>
     </div>
     </main>
 
     <!--pie de pagina-->
-<div class="conteiner-fluid">
-    <div class="row"  style="padding-right: 0;">
+    <div class="row">
       <div class="col">
         <footer id="pie">
           <span class="texto-blanco"> myculture@gmail.com </span>
-          <div >
-  <a href="https://www.facebook.com/"><img src="../assets/img/logos_redes/logofacebook.png" alt="facebook" class="redes" width="30px"></a>
-  <a href="https://www.instagram.com/"><img src="../assets/img/logos_redes/logoinsta.png" alt="instagram" class="redes" width="30px"></a>
-  <a href="https://twitter.com/?lang=es"><img src="../assets/img/logos_redes/logotwitter.png" alt="twitter" class="redes" width="30px"></a>
-  <a href="https://uy.linkedin.com/"><img src="../assets/img/logos_redes/logolinkedin.png" alt="linkedin" class="redes" width="30px"></a>
-  <a href="https://uy.linkedin.com/"><img src="../assets/img/logos_redes/loogocorreo.png" alt="correo" class="redes" width="30px"></a>
+          <div class=" justify-content-between">
+  <a href="https://www.facebook.com/"><img src="../assets/img/logos_redes/logofacebook.png" alt="facebook"  class="redes" width="30px"></a>
+  <a href="https://www.instagram.com/"><img src="../assets/img/logos_redes/logoinsta.png" alt="instagram"  class="redes" width="30px"></a>
+  <a href="https://twitter.com/?lang=es"><img src="../assets/img/logos_redes/logotwitter.png" alt="twitter"  class="redes" width="30px"></a>
+  <a href="https://uy.linkedin.com/"><img src="../assets/img/logos_redes/logolinkedin.png" alt="linkedin"  class="redes" width="30px"></a>
+  <a href="https://uy.linkedin.com/"><img src="../assets/img/logos_redes/loogocorreo.png" alt="correo"  class="redes" width="30px"></a>
   </div>
           <span class="texto-blanco">©2022 myCULTURE </span>
         </footer>
       </div>
     </div>
+    </div> 
     </div>
     <!-- JavaScript Bundle with Popper -->
     <script
