@@ -5,6 +5,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 
@@ -17,7 +18,10 @@
 
 }
 .redes{
-  margin-right: 1em;
+margin-left: 2em;
+margin-bottom: 3em;
+width: 1.875em;
+
 }
 .img-carusel {
   height: 30em;
@@ -35,13 +39,18 @@
   box-shadow:  rgba(0, 0, 0, 0.1) 0px 4px 12px;
  }
 
-
+.baner-shadow {
+  box-shadow:  rgba(0, 0, 0, 0.1) 0px 6px 12px;
+}
 .borderblack {
   border: #000000 solid 1px;
 }
 
 .bg-blanco{
   background-color: white;
+}
+.bg-black{
+  background-color: #000000;
 }
 .font-letra{
   font-size: 2em;
@@ -69,6 +78,7 @@ table tr td a {
 footer {
   background-color: #000000;
   width: 100%;
+  height: 6em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -124,132 +134,12 @@ a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
 /* ESTILOS PARA INDEX*/
-/* fondo de index*/
-/*  Grid y RESPO?NSIvE index
-.contenedor-grid {
-  height: 100%;
-
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  grid-template-areas:
-    "nav"
-    "main"
-    "aside"
-    "footer";
-}
-
-#botonera {
-  grid-area: nav;
-  flex-direction: column;
-  justify-content: center;
-}
-
-#video-titulogrid {
-  grid-area: main;
-  height: 50vh;
-}
-
-#book-revistas {
-  grid-area: aside;
-  overflow-y: hidden;
-  height: 40vh;
-}
-
-#pie {
-  grid-area: footer;
-  height: 5em;
-  height: 10vh;
-  font-size: 0.7em;
-  padding-bottom: 1%;
-}
-
-@media (min-width: 768px) {
-  .contenedor-grid {
-    height: 100vh;
-    width: 100vw;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 3fr 1fr;
-    grid-template-areas:
-      "nav nav nav "
-      "main  main aside"
-      "footer  footer footer";
-  }
-  #botonera {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    padding-left: 4%;
-    padding-top: 4%;
-  }
-
-
-  #book-revistas {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    padding-right: 5%;
-    padding-bottom: 2%;
-    height: 20em;
-  }
-} /*cierre de @media 768 
-@media (min-width: 1200px) {
-  .contenedor-grid {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-      "nav"
-      "main"
-      "aside"
-      "footer";
-    overflow-x: hidden;
-  }
-  #botonera {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    padding-left: 4%;
-    padding-top: 4%;
-  }
-  #book-revistas {
-    grid-area: aside;
-    display: flex;
-    flex-direction: row;
-
-    overflow-x: scroll;
-    overflow-y: hidden;
-    height: 40vh;
-  }
-  #book-revistas div {
-    display: flex;
-    align-content: center;
-    height: 12em;
-  }
-  #book-revistas img {
-    width: 8em;
-    margin-right: 3em;
-    display: flex;
-  }
-}
-*/
 
 
 
 /* accesos a redes en index*/
-.iconos-redes {
-  width: 15px;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  padding-left: 2em;
-  position: fixed;
-  top: 15em;
-  
-}
 
 /*imagenes de accesos a redes */
 .imagenes-accesos {
@@ -295,14 +185,8 @@ body {
   overflow-x: hidden;
 }
 
-/* ESTILO PARA ARTES*/
-/* fondo de arte.html*/
-.fondo-arte {
-  background-image: url(../assets/img/arte/chica_artes.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
+/* artes styles*/
+
 
 .main-artes {
   display: flex;
@@ -328,62 +212,19 @@ body {
  
 }
 
-/* ESTILO PARA DISEÑO*/
-/* fondo de diseno.html */
-/* .fondo-diseno {
-  background-image: url(../assets/img/diseño/chicas_diseño.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
-}
 
-.contenedor-diseno {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 4fr;
-  grid-template-areas:
-    " nav"
-    "main"
-    "footer";
-}
 
-#botonera-diseno {
-  grid-area: nav;
-  flex-direction: column;
-  justify-content: center;
-}
-#botonera-diseno ul {
-  display: flex;
-  justify-content: space-around;
-}
-
-#tienda {
-  grid-area: main;
-
-  background-color: rgba(8, 8, 8, 0.5);
-  width: 90%;
-  height: 80%;
-  margin-top: 20%;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  margin-left: 4.5%;
-  display: flex;
-  justify-content: center;
-} */
-
-#pie {
-  grid-area: footer;
-
-  height: 10vh;
-  font-size: 0.7em;
-  padding-bottom: 1%;
+/* Diseno styles*/
+.botones-artistas {
+  width: 70% ;
+  border-radius: 30px;
+ margin-left: 10%;
+ 
 }
 
 
-/* ESTILO PARA UNETE*/
-/* fondo de unete.html*/
+/*UNETE styles*/
+
 .img-100 {
 padding-left: 0% !important;
 padding-right: 0% !important;
@@ -428,12 +269,16 @@ input[type=text]:focus {
 
 }
 
+
 .boton-enviar {
-  margin: 3em 0;
-  width: 80%;
-  height: 3em;
+  margin: 2em 0;
+  width: 70%;
+  height: 4em;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #7e7867;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.1em;
 }
