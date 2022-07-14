@@ -212,14 +212,53 @@ body {
  
 }
 
+/* ESTILO PARA DISEÑO*/
+/* fondo de diseno.html */
+/* .fondo-diseno {
+  background-image: url(../assets/img/diseño/chicas_diseño.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.contenedor-diseno {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 4fr;
+  grid-template-areas:
+    " nav"
+    "main"
+    "footer";
+}
+#botonera-diseno {
+  grid-area: nav;
+  flex-direction: column;
+  justify-content: center;
+}
+#botonera-diseno ul {
+  display: flex;
+  justify-content: space-around;
+}
+#tienda {
+  grid-area: main;
+  background-color: rgba(8, 8, 8, 0.5);
+  width: 90%;
+  height: 80%;
+  margin-top: 20%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-left: 4.5%;
+  display: flex;
+  justify-content: center;
+} */
 
+#pie {
+  grid-area: footer;
 
-/* Diseno styles*/
-.botones-artistas {
-  width: 70% ;
-  border-radius: 30px;
- margin-left: 10%;
- 
+  height: 10vh;
+  font-size: 0.7em;
+  padding-bottom: 1%;
 }
 
 
@@ -277,8 +316,5 @@ input[type=text]:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.5);
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 1.1em;
+
 }
