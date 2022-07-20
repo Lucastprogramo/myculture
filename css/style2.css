@@ -11,5 +11,38 @@
 /* tipografia */
 /* colores */
 /* centrado de texto */
+.botones-artistas {
+  overflow-x: visible;
+  transition: transform 0.3s linear;
+}
+.botones-artistas:hover {
+  transform: scale(1.08);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.scroll-no {
+  overflow: visible;
+}
+
+.imgredes {
+  transition: transform 0.3s linear;
+}
+.imgredes:hover {
+  transform: translateY(5px);
+}
+
+input {
+  border: solid 1.5px #D3D3D3;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+input:focus {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  outline-width: 0px;
+}
+input:focus-visible {
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
 
 /*# sourceMappingURL=style2.css.map */
