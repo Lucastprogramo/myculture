@@ -5,7 +5,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
+  overflow-x: hidden; 
 }
 
 
@@ -149,14 +149,11 @@ a {
 /*imagenes de accesos a redes */
 .imagenes-accesos {
   width: 2em;
-  height: 2em;
+  height: 3em;
   margin-bottom: 0.5rem;
+  padding-top: 1em;
 }
 
-.imagenes-accesos :hover {
-  color: #7e7867;
-  background-color: rgba(0, 0, 0, 0.5);
-}
 
 /* titulo del medio*/
 
@@ -222,6 +219,7 @@ body {
   width: 70% ;
   border-radius: 30px;
  margin-left: 10%;
+ height: auto;
  
 }
 
@@ -259,19 +257,8 @@ input {
   width: 21.875em;
   padding: 0.75em;
   border-radius: 0.5em;
-   border: solid 1.5px #D3D3D3;
-  -webkit-transition: 1s; 
-  transition: 1s;
 }
   
-input[type=text]:hover{
-  box-shadow: 0 0 5pt 0.5pt #D3D3D3;
-}
-input[type=text]:focus {
-  box-shadow: 0 0 5pt 2pt #D3D3D3;
-  outline-width: 0px;
-
-}
 
 
 .boton-enviar {
