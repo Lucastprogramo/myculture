@@ -32,10 +32,7 @@ align-items: center;
 margin-left: 0.7em;
 margin-right: 00.75em;
 margin-bottom: 2em;
-
-
 width: 2em;
-
 
 }
 .img-carusel {
@@ -94,7 +91,6 @@ footer {
   background-color: #000000;
   width: 100%;
   height: auto;
-  
   align-items: flex-end;
   padding: 0 2em;
 }
