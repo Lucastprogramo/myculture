@@ -10,6 +10,17 @@
 
 
 /* clases  propias para bootstrap*/
+hr {
+  border-top: 3px solid #000000;
+  width: 70%;
+  margin: auto;
+}
+.texto-centrado {
+  text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
 
 .positions-fixed {
   position: fixed;
@@ -18,9 +29,13 @@
 
 }
 .redes{
-margin-right: 2.5em;
-margin-bottom: 2.6em;
-width: 1.875em;
+margin-left: 0.7em;
+margin-right: 00.75em;
+margin-bottom: 2em;
+
+
+width: 1em;
+
 
 }
 .img-carusel {
@@ -78,17 +93,14 @@ table tr td a {
 footer {
   background-color: #000000;
   width: 100%;
-  height: 8em;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  height: 25em;
+  
   align-items: flex-end;
   padding: 0 2em;
 }
-
-.info-footer{
-padding-top: 0px;
-padding-bottom: 30px;
+.row-map{
+  display: flex;
+ flex-direction: row;
 }
 
 ul {
@@ -141,18 +153,6 @@ a {
 
 
 /* ESTILOS PARA INDEX*/
-
-
-
-/* accesos a redes en index*/
-
-/*imagenes de accesos a redes */
-.imagenes-accesos {
-  width: 2em;
-  height: 3em;
-  margin-bottom: 0.5rem;
-  padding-top: 1em;
-}
 
 
 /* titulo del medio*/
@@ -246,7 +246,7 @@ label {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-family: "Open sans";
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 20px;
   padding: 1em 0;
 }
@@ -263,10 +263,15 @@ input {
 
 
 .boton-enviar {
-  margin: 2em 0;
+ margin-top: 2em;
+ margin-bottom: 2em;
   width: 70%;
   height: 4em;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #000000;
+  color: white;
+  font-size: 22px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
