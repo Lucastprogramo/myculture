@@ -47,54 +47,58 @@
 
 
  
-    <div class="container-fluid">
-      <main>
+  
+ <main class="container-fluid">
 
-      <div class="row">
+      <div class="row"> <div class="col-sm-12 col-md-5 " style="margin-top: 8em;">
 
+        <form action="/formulario" method="post">
+          <fieldset>
+            <legend class="letra-narrow pt-1 " style="font-size: 30px;">REGISTRATE</legend>
 
-      
+            <label for="usuario">USUARIO</label>
+            <input type="text" name="usuario" id="Usuario" />
 
-        <div class="col-md-5 " style="margin-top: 8em;">
+            <label for="nombre">NOMBRE</label>
+            <input type="text" name="name" id="nombre" />
 
-          <form action="/formulario" method="post">
-            <fieldset>
-              <legend class="letra-narrow pt-1 " style="font-size: 30px;">REGISTRATE</legend>
-
-              <label for="usuario">USUARIO</label>
-              <input type="text" name="usuario" id="Usuario" />
-
-              <label for="nombre">NOMBRE</label>
-              <input type="text" name="name" id="nombre" />
-
-              <label for="apellido">APELLIDO</label>
-              <input type="text" name="surname" id="Apellido" />
+            <label for="apellido">APELLIDO</label>
+            <input type="text" name="surname" id="Apellido" />
 
 
-              <label for="mail">MAIL</label>
-              <samp><input type="email" name="mail" placeholder="ejemplo@gmail.com" id="mail" /></samp>
+            <label for="mail">MAIL</label>
+            <samp><input type="email" name="mail" placeholder="ejemplo@gmail.com" id="mail" /></samp>
 
 
-              <label for="password">CONTRASEÑA</label>
-              <input type="password" name="password" id="password" />
+            <label for="password">CONTRASEÑA</label>
+            <input type="password" name="password" id="password" />
 
-              <input type="submit" value="ENVIAR" class="boton-enviar" />
-            </fieldset>
-          </form>
-        </div>
-
-      </div> 
-      </main>
-    </div>
-    <div class="col-md-7 img-100">
-     
-        
-      <img src="../assets/img/unete/chicas_unete.png" alt=" modelos posando"  class=" img-objet-fit" style="height: 60.4em;">
-    
-</div>
+            <input type="submit" value="ENVIAR" class="boton-enviar" />
+          </fieldset>
+        </form>
       </div>
-    </div>
-    </main>
+
+   
+  <div class=" col-sm-12 col-md-7 img-100">
+   
+      
+    <img src="../assets/img/unete/chicas_unete.png" alt=" modelos posando"  class=" img-objet-fit" style="height: 60.4em;">
+  
+</div></div>
+
+       
+
+</main><!-- end containerfluid -->
+
+
+
+
+
+
+
+
+
+
 
     <!--pie de pagina-->
     <footer class="container-fluid">
