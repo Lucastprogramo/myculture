@@ -67,6 +67,9 @@ width: 2em;
 .font-letra{
   font-size: 2em;
 }
+.sizeletra{
+  font-size: 23px;
+}
 /* ESTILO PARA TODAS LAS PAGINAS*/
 
 
@@ -202,7 +205,10 @@ body {
 }
 
 .img-artes {
-  border: solid #000000 2px;
+
+  background: linear-gradient 225deg, #d8d8d8, #ffffff;
+box-shadow:  -49px 49px 98px #626262,
+49px -49px 98px #ffffff;
   width: 70em;
   height: 25em;
   object-fit: cover;
