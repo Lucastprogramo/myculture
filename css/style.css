@@ -1,14 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Oswald:wght@200;300;400;500&family=PT+Sans+Narrow&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Oswald:wght@200;300;400;500&family=PT+Sans+Narrow&display=swap");
 /*selector universal */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  overflow-x: hidden; 
+  overflow-x: hidden;
 }
+.fs-30{
+  font-size: 30px;
+}
+.mb-em {
+  margin-top: 8em;
 
-
+}
+.img-unete{
+  width: 100%;
+  height: 60.4em;
+  object-fit: cover;
+}
+.linea-artes {
+  margin-bottom: 3em;
+}
+.linea-texto {
+  border: solid #000 1px;
+  margin: 2em 0;
+  width: 70%;
+}
+.map-border {
+  border: solid 2px #ffffff;
+}
 /* clases  propias para bootstrap*/
 hr {
   border-top: 3px solid #000000;
@@ -17,63 +38,53 @@ hr {
 }
 .texto-centrado {
   text-align: center;
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .positions-fixed {
   position: fixed;
   width: 100%;
   z-index: 999;
-
 }
-.redes{
-margin-left: 0.7em;
-margin-right: 00.75em;
-margin-bottom: 2em;
-width: 2em;
-
+.redes {
+  margin-left: 0.7em;
+  margin-right: 00.75em;
+  margin-bottom: 2em;
+  width: 2em;
 }
 .img-carusel {
   height: 30em;
-  width: 100%;  
+  width: 100%;
   object-fit: cover;
   margin-top: 8em;
- 
-  
 }
 
-
-
-
- .nav-shadow {
-  box-shadow:  rgba(0, 0, 0, 0.1) 0px 4px 12px;
- }
+.nav-shadow {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
 
 .baner-shadow {
-  box-shadow:  rgba(0, 0, 0, 0.1) 0px 6px 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 12px;
 }
 .borderblack {
   border: #000000 solid 1px;
 }
 
-.bg-blanco{
+.bg-blanco {
   background-color: white;
 }
-.bg-black{
+.bg-black {
   background-color: #000000;
 }
-.font-letra{
+.font-letra {
   font-size: 2em;
 }
-.sizeletra{
+.sizeletra {
   font-size: 23px;
 }
 /* ESTILO PARA TODAS LAS PAGINAS*/
-
-
-
 
 body {
   margin: 0;
@@ -97,9 +108,9 @@ footer {
   align-items: flex-end;
   padding: 0 2em;
 }
-.row-map{
+.row-map {
   display: flex;
- flex-direction: row;
+  flex-direction: row;
 }
 
 ul {
@@ -116,7 +127,6 @@ header {
 }
 /*.lista-nav {}]*/
 
-
 .logo {
   display: flex;
   justify-content: center;
@@ -131,8 +141,8 @@ header {
   font-size: 1.5em;
 }
 
-.letra-nanum{
-  font-family: 'Nanum Myeongjo', serif;
+.letra-nanum {
+  font-family: "Nanum Myeongjo", serif;
 }
 a {
   color: white;
@@ -145,22 +155,17 @@ a {
 .texto.black {
   color: #000000;
 }
-.letra-narrow{
-
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.letra-narrow {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-
 /* ESTILOS PARA INDEX*/
-
 
 /* titulo del medio*/
 
 aside {
   background-color: white;
   display: flex;
-
-  ;
 }
 
 .cajas-index {
@@ -172,23 +177,17 @@ aside {
 
 /* ESTILO PARA ABOUT US*/
 
-
-
-.img-objet-fit{
- object-fit: cover;
+.img-objet-fit {
+  object-fit: cover;
   width: 100%;
   height: 20em;
-  
-  
 }
-
 
 body {
   overflow-x: hidden;
 }
 
 /* artes styles*/
-
 
 .main-artes {
   display: flex;
@@ -205,33 +204,26 @@ body {
 }
 
 .img-artes {
-
   background: linear-gradient 225deg, #d8d8d8, #ffffff;
-box-shadow:  -49px 49px 98px #626262,
-49px -49px 98px #ffffff;
+  box-shadow: -49px 49px 98px #626262, 49px -49px 98px #ffffff;
   width: 70em;
   height: 25em;
   object-fit: cover;
-  
-  
- 
 }
 
 /* Diseno styles*/
 .botones-artistas {
-  width: 70% ;
+  width: 70%;
   border-radius: 30px;
- margin-left: 10%;
- height: auto;
- 
+  margin-left: 10%;
+  height: auto;
 }
-
 
 /*UNETE styles*/
 
 .img-100 {
-padding-left: 0% !important;
-padding-right: 0% !important;
+  padding-left: 0% !important;
+  padding-right: 0% !important;
 }
 
 /* formulario de unete.html*/
@@ -240,15 +232,13 @@ padding-right: 0% !important;
   background-color: rgba(255, 255, 255, 0.5);
   display: flex;
   align-content: center;
-  
-
 }
 
 label {
   display: flex;
   flex-direction: column;
   justify-content: center;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 20px;
   padding: 1em 0;
 }
@@ -261,12 +251,10 @@ input {
   padding: 0.75em;
   border-radius: 0.5em;
 }
-  
-
 
 .boton-enviar {
- margin-top: 2em;
- margin-bottom: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
   width: 70%;
   height: 4em;
   display: flex;
@@ -275,5 +263,5 @@ input {
   background-color: #000000;
   color: white;
   font-size: 22px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
